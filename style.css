@@ -1,0 +1,85 @@
+/*
+ Theme Name:   eCommerce Store
+ Theme URI:    http://themes4wp.com/theme/ecommerce-store/
+ Description:  eCommerce Store is a child theme of MaxStore WooCommerce WordPress theme. eCommerce Store is multipurpose WooCommerce WordPress Theme suitable for eCommerce websites of any store type: sport, technology, fashion, furniture, digitals etc. Its modern design is perfect to create a website for your business. eSotre includes plenty of customization options that are easy to use. Main features of ecommerce-store: Customizer theme options, background image and color, wishlist support, grid homepage block, product search with category select, SEO optimized, fully responsive, configurable home page, slider, fast loading. Documentation available at http://demo.themes4wp.com/documentation/category/ecommerce-store/ and check the demo at http://demo.themes4wp.com/ecommerce-store/ 
+ Author:       Themes4WP
+ Author URI:   http://themes4wp.com/
+ Template:     maxstore
+ Version:      1.0.3
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:         one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, custom-background, custom-menu, featured-images, flexible-header, theme-options, translation-ready, e-commerce
+ Text Domain:  ecommerce-store
+*/
+
+.col-xs-6.top-category-description {
+    padding: 10px 20px;
+}
+.top-cat-heading h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.top-cat-heading h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.top-category-products-line {
+    background-color: #000000;
+    display: flex;
+}
+.top-category-products-line:nth-of-type(2n) {
+    background-color: #F4C700;
+}
+.top-category-button {
+    margin-top: 10px;
+}
+.top-cat-heading a {
+    color: #fff;
+}
+.top-cat-heading .price {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.top-category-button.btn.btn-primary.btn-md.outline {
+    color: #fff;
+    background-color: transparent;
+    border-color: #ffffff;
+}
+.top-category-button.btn.btn-primary.btn-md.outline:hover {
+    opacity: 0.8; 
+}
+.top-category-button.btn.btn-primary.btn-md.outline a {
+    color: #fff;
+}
+.top-cat-img {
+    overflow: hidden;
+    float: right;
+}
+.top-category-products-line:nth-of-type(2n) .top-cat-img {
+    float: left;
+}
+.top-cat-img img {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    -webkit-transition: .8s ease-in-out;
+    transition: .8s ease-in-out;
+}
+.top-category-products-line:hover img {
+    -webkit-transform: rotate(10deg) scale(1.2);
+    transform: rotate(10deg) scale(1.2);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #4E4E4E;
+}
+.woocommerce ul.products li.product .button, .add-to-wishlist-custom {width: initial; border-radius: 25px;} 
+.woocommerce ul.products li.product:hover .button {left: 50%; transform: translate(-50%, 0);} 
+.woocommerce ul.products li.product:hover .add-to-wishlist-custom {right: 50%; transform: translate(50%, 0);}
